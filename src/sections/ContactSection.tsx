@@ -110,7 +110,7 @@ const ALL_PETALS = generatePetals(PETAL_COUNT)
 function SakuraCanvas({ scrollYProgress }: { scrollYProgress: MotionValue<number> }) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const progressRef = useRef(0)
-  const rafRef = useRef<number>()
+  const rafRef = useRef<number | undefined>(undefined)
   const dimensionsRef = useRef({ w: 0, h: 0 })
 
   useMotionValueEvent(scrollYProgress, 'change', (v) => {

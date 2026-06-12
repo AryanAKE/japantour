@@ -20,7 +20,6 @@ export default function SmoothScrollProvider({ children }: { children: ReactNode
       duration: 1.2,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
-      smoothTouch: false, // Mobile keeps native scroll for performance
     })
 
     setLenisInstance(lenis)
