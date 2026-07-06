@@ -4,11 +4,11 @@ import { Instagram, Facebook, Send } from 'lucide-react'
 import { useLenis } from '../components/SmoothScrollProvider'
 
 const POLAROIDS = [
-  { src: '/assets/polaroid-pagoda.mp4', caption: '3 CITIES IN JAPAN' },
-  { src: '/assets/polaroid-rice-terraces.mp4', caption: '10 DAYS' },
-  { src: '/assets/polaroid-torii.mp4', caption: 'GIGABYTES OF PHOTOS' },
-  { src: '/assets/polaroid-ramen.mp4', caption: 'EAT RAMEN' },
-  { src: '/assets/polaroid-neon.mp4', caption: 'ENJOY THE VIBE' },
+  { src: './assets/polaroid-pagoda.mp4', caption: '3 CITIES IN JAPAN' },
+  { src: './assets/polaroid-rice-terraces.mp4', caption: '10 DAYS' },
+  { src: './assets/polaroid-torii.mp4', caption: 'GIGABYTES OF PHOTOS' },
+  { src: './assets/polaroid-ramen.mp4', caption: 'EAT RAMEN' },
+  { src: './assets/polaroid-neon.mp4', caption: 'ENJOY THE VIBE' },
 ]
 
 const STANDARD_EASE = [0.16, 1, 0.3, 1] as const
@@ -104,7 +104,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-0"
       >
         <img
-          src="/assets/hero-mountains.jpg"
+          src="./assets/hero-mountains.jpg"
           alt="Misty Japanese mountains at dawn"
           className="w-full h-full object-cover"
           style={{ objectPosition: 'center 30%' }}
@@ -143,7 +143,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-10 pointer-events-none"
       >
         <img
-          src="/assets/hero-mountains.jpg"
+          src="./assets/hero-mountains.jpg"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover"
@@ -178,7 +178,7 @@ export default function HeroSection() {
           }}
         >
           <img
-            src="/assets/hero-kimono-figure.png"
+            src="./assets/hero-kimono-figure.png"
             alt="Woman in floral kimono gazing at the valley"
             className="w-full h-auto object-contain"
           />

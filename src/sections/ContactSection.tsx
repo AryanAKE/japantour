@@ -388,7 +388,7 @@ export default function ContactSection() {
         style={{ y: bgY }}
       >
         <img
-          src="/assets/contact-cherry-fuji.jpg"
+          src="./assets/contact-cherry-fuji.jpg"
           alt="Cherry blossoms framing Mount Fuji at sunrise"
           className="w-full h-full object-cover"
           style={{ minHeight: '115%' }}

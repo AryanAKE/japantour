@@ -171,22 +171,22 @@ const TIMELINE_DATA = [
   {
     label: 'DAYS 1–3 — OSAKA',
     photos: [
-      { src: '/assets/timeline-osaka-castle.jpg', alt: 'Osaka Castle', rotate: '3deg' },
-      { src: '/assets/timeline-osaka-skyline.jpg', alt: 'Osaka skyline', rotate: '-2deg' },
+      { src: './assets/timeline-osaka-castle.jpg', alt: 'Osaka Castle', rotate: '3deg' },
+      { src: './assets/timeline-osaka-skyline.jpg', alt: 'Osaka skyline', rotate: '-2deg' },
     ],
   },
   {
     label: 'DAYS 4–6 — KYOTO',
     photos: [
-      { src: '/assets/timeline-kyoto-pagoda.jpg', alt: 'Kyoto pagoda', rotate: '-3deg' },
-      { src: '/assets/timeline-kyoto-torii.jpg', alt: 'Fushimi Inari', rotate: '2deg' },
+      { src: './assets/timeline-kyoto-pagoda.jpg', alt: 'Kyoto pagoda', rotate: '-3deg' },
+      { src: './assets/timeline-kyoto-torii.jpg', alt: 'Fushimi Inari', rotate: '2deg' },
     ],
   },
   {
     label: 'DAYS 7–10 — TOKYO',
     photos: [
-      { src: '/assets/timeline-tokyo-shibuya.jpg', alt: 'Shibuya crossing', rotate: '2deg' },
-      { src: '/assets/timeline-tokyo-street.jpg', alt: 'Tokyo street', rotate: '-3deg' },
+      { src: './assets/timeline-tokyo-shibuya.jpg', alt: 'Shibuya crossing', rotate: '2deg' },
+      { src: './assets/timeline-tokyo-street.jpg', alt: 'Tokyo street', rotate: '-3deg' },
     ],
   },
 ]
