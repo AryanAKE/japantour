@@ -1,4 +1,4 @@
-import { Globe, Instagram, Facebook, Send } from 'lucide-react'
+import { MapPin, Instagram, Facebook, Send } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { useLenis } from './SmoothScrollProvider'
 import { useCallback } from 'react'
@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left — Wordmark */}
           <div className="flex items-center gap-2">
-            <Globe className="w-[18px] h-[18px] text-kimono-white" strokeWidth={1.5} />
+            <MapPin className="w-[18px] h-[18px] text-kimono-white" strokeWidth={1.5} />
             <span className="small-caps text-kimono-white">JAPAN TOURS</span>
             <span className="small-caps text-mouse-gray ml-2">&copy; 2026</span>
           </div>

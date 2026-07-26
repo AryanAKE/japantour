@@ -1,12 +1,12 @@
 import { useEffect, useState, useCallback } from 'react'
 import { motion } from 'framer-motion'
-import { Globe } from 'lucide-react'
+import { MapPin } from 'lucide-react'
 import { useLenis } from './SmoothScrollProvider'
 
 const NAV_LINKS = [
   { label: 'ABOUT', target: '#about' },
   { label: 'INCLUDED', target: '#included' },
-  { label: 'CONTACTS', target: '#contact' },
+  { label: 'CONTACT', target: '#contact' },
 ]
 
 export default function Header() {
@@ -45,7 +45,7 @@ export default function Header() {
       <div className="page-padding flex items-center justify-between h-16 md:h-20">
         {/* Wordmark */}
         <div className="flex items-center gap-2">
-          <Globe className="w-[18px] h-[18px] text-kimono-white" strokeWidth={1.5} />
+          <MapPin className="w-[18px] h-[18px] text-kimono-white" strokeWidth={1.5} />
           <span className="small-caps text-kimono-white">JAPAN TOURS</span>
         </div>
 
