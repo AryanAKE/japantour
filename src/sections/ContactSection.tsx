@@ -354,7 +354,7 @@ function SakuraCanvas({ scrollYProgress }: { scrollYProgress: MotionValue<number
 
 export default function ContactSection() {
   const sectionRef = useRef<HTMLElement>(null)
-  const [formData, setFormData] = useState({ name: '', phone: '', comment: '' })
+  const [formData, setFormData] = useState({ name: '', phone: '', email: '', comment: '' })
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -438,6 +438,13 @@ export default function ContactSection() {
               placeholder="Phone number"
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+              className={inputClasses}
+            />
+            <input
+              type="email"
+              placeholder="Email address"
+              value={formData.email}
+              onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               className={inputClasses}
             />
             <textarea
