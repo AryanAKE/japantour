@@ -37,7 +37,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Globe className="w-[18px] h-[18px] text-kimono-white" strokeWidth={1.5} />
             <span className="small-caps text-kimono-white">JAPAN TOURS</span>
-            <span className="small-caps text-mouse-gray ml-2">&copy; 2025</span>
+            <span className="small-caps text-mouse-gray ml-2">&copy; 2026</span>
           </div>
 
           {/* Center — Nav */}
